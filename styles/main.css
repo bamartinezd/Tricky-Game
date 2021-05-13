@@ -107,3 +107,9 @@ body{
     height: 330px;
     border-radius: 10px;
 }
+
+@media (max-width: 500px) {
+    .alert-message{
+        width: 280px;
+    }
+}
