@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c9ced3;
+    font-family: Nunito, sans-serif;
+}
+
+.main-tricky-container{
+    position: relative;
+}
+
+.tricky-row{
+    height: 80px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.square{
+    background-color: #161b22;
+    color: #c9d1d9;
+    box-shadow: 0 15px 30px 5px rgb(0 0 0 / 30%);
+    height: 100%;
+    width: 80px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.square:hover{
+    background-color: #343e4d;
+}
+
+.winner{
+    color: green;
+}
+
+.alert-message{
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #e7e7e7;
+    border-left: 2px solid #161b22;
+    box-shadow: 0 15px 30px 5px rgb(0 0 0 / 30%);
+    border-radius: 10px;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.trophy{
+   color: green; 
+   font-size: 30px;
+}
+
+.hide-element{
+    display: none;
+}
+
+.show-element{
+    display: inherit;
+}
+
+.btn{
+    padding: 20px;
+    margin-bottom: 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 300;
+    box-shadow: 0 2px 25px rgba(22, 21, 22, 0.5);
+}
+
+.btn:hover{
+    filter: brightness(120%);
+}
+
+.btn:active{
+    
+    transform: scale(0.95);
+}
+
+.btn i{
+    margin-right: 10px;
+}
+
+.layer-over{
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 300px;
+    height: 330px;
+    border-radius: 10px;
+}
